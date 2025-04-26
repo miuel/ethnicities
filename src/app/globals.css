@@ -8,11 +8,19 @@
   }
 }
 
+@font-face {
+  font-family: "Editorial-New";
+  src: url("/fonts/editorial-new.woff.woff2") format("woff2"),
+    url("/fonts/editorial-new.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 0 0% 95%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -74,5 +82,13 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  h1 {
+    font-family: "Editorial-New", sans-serif;
+    font-weight: 600;
+  }
+
+  .clip-me {
+    clip-path: polygon( 0% 68.057%,51.231% 99.945%,99.923% 99.945%,99.923% 38.694%,51.231% 0%,51.231% 38.694%,0% 0%,0% 68.057% );
   }
 }
