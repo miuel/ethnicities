@@ -1,0 +1,360 @@
+[
+    {
+        "id": 1,
+        "ethnicity": "Han Chinese",
+        "continent": "Asia",
+        "countries": [
+            "China",
+            "Taiwan",
+            "Singapore"
+        ],
+        "population_percent_worldwide": 6,
+        "description": "The Han Chinese are the world's largest ethnic group, with a rich history and deep cultural influence across Asia.",
+        "traits": [
+            "Straight black hair",
+            "Fair to medium complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/han-chinese.jpg",
+        "slug": "han-chinese"
+    },
+    {
+        "id": 2,
+        "ethnicity": "Arab",
+        "continent": "Asia",
+        "countries": [
+            "Saudi Arabia",
+            "Egypt",
+            "Iraq",
+            "Syria",
+            "Morocco"
+        ],
+        "population_percent_worldwide": 5,
+        "description": "Arabs are a diverse group unified primarily by language and cultural traditions across the Middle East and North Africa.",
+        "traits": [
+            "Dark hair",
+            "Olive complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/arab.jpg",
+        "slug": "arab"
+    },
+    {
+        "id": 3,
+        "ethnicity": "Bengali",
+        "continent": "Asia",
+        "countries": [
+            "Bangladesh",
+            "India"
+        ],
+        "population_percent_worldwide": 5.8,
+        "description": "The Bengali people are one of the largest ethnic groups in South Asia, known for their rich cultural heritage and language.",
+        "traits": [
+            "Dark hair",
+            "Medium complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/bengali.jpg",
+        "slug": "bengali"
+    },
+    {
+        "id": 4,
+        "ethnicity": "Russian",
+        "continent": "Europe",
+        "countries": [
+            "Russia",
+            "Ukraine",
+            "Belarus"
+        ],
+        "population_percent_worldwide": 2,
+        "description": "Russians are the largest Slavic ethnic group, with a cultural influence extending across Eastern Europe and Central Asia.",
+        "traits": [
+            "Light hair",
+            "Fair complexion",
+            "Blue or green eyes"
+        ],
+        "image_url": "/images/russian.jpg",
+        "slug": "russian"
+    },
+    {
+        "id": 5,
+        "ethnicity": "Punjabi",
+        "continent": "Asia",
+        "countries": [
+            "India",
+            "Pakistan"
+        ],
+        "population_percent_worldwide": 2,
+        "description": "Punjabis are an Indo-Aryan ethnolinguistic group associated with the Punjab region of South Asia.",
+        "traits": [
+            "Dark hair",
+            "Brown complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/punjabi.jpg",
+        "slug": "punjabi"
+    },
+    {
+        "id": 6,
+        "ethnicity": "Japanese",
+        "continent": "Asia",
+        "countries": [
+            "Japan"
+        ],
+        "population_percent_worldwide": 1.5,
+        "description": "The Japanese people have a distinct culture and history rooted in the islands of Japan.",
+        "traits": [
+            "Straight black hair",
+            "Fair complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/japanese.jpg",
+        "slug": "japanese"
+    },
+    {
+        "id": 7,
+        "ethnicity": "Mexican Mestizo",
+        "continent": "North America",
+        "countries": [
+            "Mexico"
+        ],
+        "population_percent_worldwide": 1.3,
+        "description": "Mexican Mestizos are a mix of Indigenous peoples of the Americas and Europeans, primarily Spanish.",
+        "traits": [
+            "Dark hair",
+            "Medium to tan complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/mexican-mestizo.jpg",
+        "slug": "mexican-mestizo"
+    },
+    {
+        "id": 8,
+        "ethnicity": "Yoruba",
+        "continent": "Africa",
+        "countries": [
+            "Nigeria",
+            "Benin",
+            "Togo"
+        ],
+        "population_percent_worldwide": 1,
+        "description": "The Yoruba people are a major ethnic group in West Africa with a rich cultural and religious tradition.",
+        "traits": [
+            "Dark skin",
+            "Coiled black hair",
+            "Brown eyes"
+        ],
+        "image_url": "/images/yoruba.jpg",
+        "slug": "yoruba"
+    },
+    {
+        "id": 9,
+        "ethnicity": "Vietnamese",
+        "continent": "Asia",
+        "countries": [
+            "Vietnam"
+        ],
+        "population_percent_worldwide": 1,
+        "description": "The Vietnamese people are native to Vietnam and have a strong cultural identity shaped by historical influences from China and France.",
+        "traits": [
+            "Straight black hair",
+            "Fair to medium complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/vietnamese.jpg",
+        "slug": "vietnamese"
+    },
+    {
+        "id": 10,
+        "ethnicity": "Zulu",
+        "continent": "Africa",
+        "countries": [
+            "South Africa"
+        ],
+        "population_percent_worldwide": 0.8,
+        "description": "The Zulu people are the largest ethnic group in South Africa, known for their warrior history and cultural traditions.",
+        "traits": [
+            "Dark skin",
+            "Coiled black hair",
+            "Brown eyes"
+        ],
+        "image_url": "/images/zulu.jpg",
+        "slug": "zulu"
+    },
+    {
+        "id": 11,
+        "ethnicity": "Turk",
+        "continent": "Asia",
+        "countries": [
+            "Turkey",
+            "Cyprus"
+        ],
+        "population_percent_worldwide": 0.7,
+        "description": "The Turks are a Turkic ethnic group primarily living in Turkey and speaking the Turkish language.",
+        "traits": [
+            "Dark hair",
+            "Fair to olive complexion",
+            "Brown or hazel eyes"
+        ],
+        "image_url": "/images/turk.jpg",
+        "slug": "turk"
+    },
+    {
+        "id": 12,
+        "ethnicity": "Persian",
+        "continent": "Asia",
+        "countries": [
+            "Iran"
+        ],
+        "population_percent_worldwide": 0.6,
+        "description": "Persians are an Iranian ethnic group native to Iran, with a rich history dating back to ancient Persia.",
+        "traits": [
+            "Dark hair",
+            "Olive complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/persian.jpg",
+        "slug": "persian"
+    },
+    {
+        "id": 13,
+        "ethnicity": "Igbo",
+        "continent": "Africa",
+        "countries": [
+            "Nigeria"
+        ],
+        "population_percent_worldwide": 0.5,
+        "description": "The Igbo are one of the largest ethnic groups in Africa, predominantly found in southeastern Nigeria.",
+        "traits": [
+            "Dark skin",
+            "Coiled black hair",
+            "Brown eyes"
+        ],
+        "image_url": "/images/igbo.jpg",
+        "slug": "igbo"
+    },
+    {
+        "id": 14,
+        "ethnicity": "French",
+        "continent": "Europe",
+        "countries": [
+            "France",
+            "Belgium",
+            "Switzerland"
+        ],
+        "population_percent_worldwide": 0.5,
+        "description": "The French are a Romance ethnic group originating in France, known for their cultural and artistic contributions.",
+        "traits": [
+            "Light to dark hair",
+            "Fair complexion",
+            "Blue, green, or brown eyes"
+        ],
+        "image_url": "/images/french.jpg",
+        "slug": "french"
+    },
+    {
+        "id": 15,
+        "ethnicity": "Korean",
+        "continent": "Asia",
+        "countries": [
+            "South Korea",
+            "North Korea"
+        ],
+        "population_percent_worldwide": 0.5,
+        "description": "The Korean people have a distinct cultural and ethnic identity rooted in the Korean Peninsula.",
+        "traits": [
+            "Straight black hair",
+            "Fair complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/korean.jpg",
+        "slug": "korean"
+    },
+    {
+        "id": 16,
+        "ethnicity": "Italian",
+        "continent": "Europe",
+        "countries": [
+            "Italy",
+            "Switzerland"
+        ],
+        "population_percent_worldwide": 0.4,
+        "description": "Italians are a Romance ethnic group native to Italy, renowned for their contributions to art, music, and cuisine.",
+        "traits": [
+            "Dark hair",
+            "Olive complexion",
+            "Brown or green eyes"
+        ],
+        "image_url": "/images/italian.jpg",
+        "slug": "italian"
+    },
+    {
+        "id": 17,
+        "ethnicity": "Hausa",
+        "continent": "Africa",
+        "countries": [
+            "Nigeria",
+            "Niger"
+        ],
+        "population_percent_worldwide": 0.4,
+        "description": "The Hausa people are one of the largest ethnic groups in Africa, primarily found in West Africa.",
+        "traits": [
+            "Dark skin",
+            "Coiled black hair",
+            "Brown eyes"
+        ],
+        "image_url": "/images/hausa.jpg",
+        "slug": "hausa"
+    },
+    {
+        "id": 18,
+        "ethnicity": "Thai",
+        "continent": "Asia",
+        "countries": [
+            "Thailand"
+        ],
+        "population_percent_worldwide": 0.3,
+        "description": "The Thai people are the predominant ethnic group of Thailand, known for their language and cultural heritage.",
+        "traits": [
+            "Straight black hair",
+            "Tan complexion",
+            "Brown eyes"
+        ],
+        "image_url": "/images/thai.jpg",
+        "slug": "thai"
+    },
+    {
+        "id": 19,
+        "ethnicity": "British",
+        "continent": "Europe",
+        "countries": [
+            "United Kingdom"
+        ],
+        "population_percent_worldwide": 0.3,
+        "description": "The British people are an ethnic group native to the United Kingdom, comprising mainly English, Scottish, Welsh, and Northern Irish.",
+        "traits": [
+            "Light to dark hair",
+            "Fair complexion",
+            "Blue, green, or brown eyes"
+        ],
+        "image_url": "/images/british.jpg",
+        "slug": "british"
+    },
+    {
+        "id": 20,
+        "ethnicity": "Amhara",
+        "continent": "Africa",
+        "countries": [
+            "Ethiopia"
+        ],
+        "population_percent_worldwide": 0.3,
+        "description": "The Amhara are an ethnic group traditionally inhabiting the central highlands of Ethiopia.",
+        "traits": [
+            "Dark skin",
+            "Curly or coiled hair",
+            "Brown eyes"
+        ],
+        "image_url": "/images/amhara.jpg",
+        "slug": "amhara"
+    }
+]
