@@ -15,62 +15,6 @@
   font-weight: 400;
   font-style: normal;
 }
-/* @layer base {
-  :root {
-    --background: 240 5% 6%;
-    --foreground: 60 5% 90%;
-    --primary: 240 0% 90%;
-    --primary-foreground: 60 0% 0%;
-    --secondary: 240 4% 15%;
-    --secondary-foreground: 60 5% 85%;
-    --accent: 240 0% 13%;
-    --accent-foreground: 60 0% 100%;
-    --destructive: 0 60% 50%;
-    --destructive-foreground: 0 0% 98%;
-    --muted: 240 5% 25%;
-    --muted-foreground: 60 5% 85%;
-    --card: 240 4% 10%;
-    --card-foreground: 60 5% 90%;
-    --popover: 240 5% 15%;
-    --popover-foreground: 60 5% 85%;
-    --border: 240 6% 20%;
-    --input: 240 6% 20%;
-    --ring: 240 5% 90%;
-    --chart-1: 359 2% 90%;
-    --chart-2: 240 1% 74%;
-    --chart-3: 240 1% 58%;
-    --chart-4: 240 1% 42%;
-    --chart-5: 240 2% 26%;
-  }
-
-  .dark {
-    --background: 240 5% 6%;
-    --foreground: 60 5% 90%;
-    --primary: 240 0% 90%;
-    --primary-foreground: 60 0% 0%;
-    --secondary: 240 4% 15%;
-    --secondary-foreground: 60 5% 85%;
-    --accent: 240 0% 13%;
-    --accent-foreground: 60 0% 100%;
-    --destructive: 0 60% 50%;
-    --destructive-foreground: 0 0% 98%;
-    --muted: 240 5% 25%;
-    --muted-foreground: 60 5% 85%;
-    --card: 240 4% 10%;
-    --card-foreground: 60 5% 90%;
-    --popover: 240 5% 15%;
-    --popover-foreground: 60 5% 85%;
-    --border: 240 6% 20%;
-    --input: 240 6% 20%;
-    --ring: 240 5% 90%;
-    --chart-1: 359 2% 90%;
-    --chart-2: 240 1% 74%;
-    --chart-3: 240 1% 58%;
-    --chart-4: 240 1% 42%;
-    --chart-5: 240 2% 26%;
-    }
-}
- */
 
 
 @layer base {
@@ -100,7 +44,6 @@
     --chart-4: 240 1% 42%;
     --chart-5: 240 2% 26%;
     --radius: 0.5rem;
-    --f-editorial-new: "Editorial-New", sans-serif;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -136,7 +79,6 @@
     --chart-3: 240 1% 58%;
     --chart-4: 240 1% 42%;
     --chart-5: 240 2% 26%;
-    --f-editorial-new: "Editorial-New", sans-serif;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -158,8 +100,6 @@
   body {
     @apply bg-background text-foreground;
   }
-
-
   .clip-me {
     clip-path: polygon(0% 68.057%, 51.231% 99.945%, 99.923% 99.945%, 99.923% 38.694%, 51.231% 0%, 51.231% 38.694%, 0% 0%, 0% 68.057%);    
   }

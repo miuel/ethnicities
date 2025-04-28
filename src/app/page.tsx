@@ -1,4 +1,5 @@
 import { LoginForm } from "@/components/login-form";
+import Reveal from "@/components/motion/Reveal";
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
           />
         </div>
         <div className="col-start-5 col-span-4 row-start-5 z-10 ">
-          <LoginForm />
+          <Reveal delay={0.8}>
+            <LoginForm />
+          </Reveal>
         </div>
         <div className="col-start-7 col-span-6 row-start-1 row-span-12 ">
           <img

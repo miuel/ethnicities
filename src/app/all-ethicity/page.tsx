@@ -5,6 +5,7 @@ import { useSessionWrapper } from "@/hooks/useSession";
 import React, { useEffect, useMemo, useState } from "react";
 import { columns } from "./columns";
 import { cn } from "@/lib/utils";
+import Reveal from "@/components/motion/Reveal";
 
 const AllEthnicity: React.FC = () => {
   useSessionWrapper();
@@ -64,20 +65,22 @@ const AllEthnicity: React.FC = () => {
           </a>
           <div className="flex gap-2 overflow-hidden">
             {imageArr.map((item, index) => (
-              <img
-                key={index}
-                src={item.image_url}
-                alt={item.ethnicity}
-                height={335}
-                width={105}
-                onLoad={() =>
-                  console.log(`Image ${index + 1} loaded successfully`)
-                }
-                className={cn(
-                  "clip-me object-cover",
-                  `${index % 2 === 1 && "scale-x-[-1]"}`
-                )}
-              />
+              <Reveal key={index} delay={index * 0.2}>
+                <img
+                  key={index}
+                  src={item.image_url}
+                  alt={item.ethnicity}
+                  height={335}
+                  width={105}
+                  onLoad={() =>
+                    console.log(`Image ${index + 1} loaded successfully`)
+                  }
+                  className={cn(
+                    "clip-me object-cover",
+                    `${index % 2 === 1 && "scale-x-[-1]"}`
+                  )}
+                />
+              </Reveal>
             ))}
           </div>
 

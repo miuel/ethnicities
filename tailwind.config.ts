@@ -64,7 +64,7 @@ const config: Config = {
   		},
   		fontFamily: {
   			editorialNew: [
-  				'Editorial New"',
+  				'"Editorial New"',
   				'serif'
   			]
   		},
