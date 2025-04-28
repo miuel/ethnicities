@@ -15,7 +15,7 @@
             "Fair to medium complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/han-chinese.jpg",
+        "image_url": "/images/ethnicity/han-chinese.jpg",
         "slug": "han-chinese"
     },
     {
@@ -36,7 +36,7 @@
             "Olive complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/arab.jpg",
+        "image_url": "/images/ethnicity/arab.jpg",
         "slug": "arab"
     },
     {
@@ -54,7 +54,7 @@
             "Medium complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/bengali.jpg",
+        "image_url": "/images/ethnicity/bengali.jpg",
         "slug": "bengali"
     },
     {
@@ -73,7 +73,7 @@
             "Fair complexion",
             "Blue or green eyes"
         ],
-        "image_url": "/images/russian.jpg",
+        "image_url": "/images/ethnicity/russian.jpg",
         "slug": "russian"
     },
     {
@@ -91,7 +91,7 @@
             "Brown complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/punjabi.jpg",
+        "image_url": "/images/ethnicity/punjabi.jpg",
         "slug": "punjabi"
     },
     {
@@ -108,7 +108,7 @@
             "Fair complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/japanese.jpg",
+        "image_url": "/images/ethnicity/japanese.jpg",
         "slug": "japanese"
     },
     {
@@ -125,7 +125,7 @@
             "Medium to tan complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/mexican-mestizo.jpg",
+        "image_url": "/images/ethnicity/mexican-mestizo.jpg",
         "slug": "mexican-mestizo"
     },
     {
@@ -144,7 +144,7 @@
             "Coiled black hair",
             "Brown eyes"
         ],
-        "image_url": "/images/yoruba.jpg",
+        "image_url": "/images/ethnicity/yoruba.jpg",
         "slug": "yoruba"
     },
     {
@@ -161,7 +161,7 @@
             "Fair to medium complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/vietnamese.jpg",
+        "image_url": "/images/ethnicity/vietnamese.jpg",
         "slug": "vietnamese"
     },
     {
@@ -178,7 +178,7 @@
             "Coiled black hair",
             "Brown eyes"
         ],
-        "image_url": "/images/zulu.jpg",
+        "image_url": "/images/ethnicity/zulu.jpg",
         "slug": "zulu"
     },
     {
@@ -196,7 +196,7 @@
             "Fair to olive complexion",
             "Brown or hazel eyes"
         ],
-        "image_url": "/images/turk.jpg",
+        "image_url": "/images/ethnicity/turk.jpg",
         "slug": "turk"
     },
     {
@@ -213,7 +213,7 @@
             "Olive complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/persian.jpg",
+        "image_url": "/images/ethnicity/persian.jpg",
         "slug": "persian"
     },
     {
@@ -230,7 +230,7 @@
             "Coiled black hair",
             "Brown eyes"
         ],
-        "image_url": "/images/igbo.jpg",
+        "image_url": "/images/ethnicity/igbo.jpg",
         "slug": "igbo"
     },
     {
@@ -249,7 +249,7 @@
             "Fair complexion",
             "Blue, green, or brown eyes"
         ],
-        "image_url": "/images/french.jpg",
+        "image_url": "/images/ethnicity/french.jpg",
         "slug": "french"
     },
     {
@@ -267,7 +267,7 @@
             "Fair complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/korean.jpg",
+        "image_url": "/images/ethnicity/korean.jpg",
         "slug": "korean"
     },
     {
@@ -285,7 +285,7 @@
             "Olive complexion",
             "Brown or green eyes"
         ],
-        "image_url": "/images/italian.jpg",
+        "image_url": "/images/ethnicity/italian.jpg",
         "slug": "italian"
     },
     {
@@ -303,7 +303,7 @@
             "Coiled black hair",
             "Brown eyes"
         ],
-        "image_url": "/images/hausa.jpg",
+        "image_url": "/images/ethnicity/hausa.jpg",
         "slug": "hausa"
     },
     {
@@ -320,7 +320,7 @@
             "Tan complexion",
             "Brown eyes"
         ],
-        "image_url": "/images/thai.jpg",
+        "image_url": "/images/ethnicity/thai.jpg",
         "slug": "thai"
     },
     {
@@ -337,7 +337,7 @@
             "Fair complexion",
             "Blue, green, or brown eyes"
         ],
-        "image_url": "/images/british.jpg",
+        "image_url": "/images/ethnicity/british.jpg",
         "slug": "british"
     },
     {
@@ -354,7 +354,7 @@
             "Curly or coiled hair",
             "Brown eyes"
         ],
-        "image_url": "/images/amhara.jpg",
+        "image_url": "/images/ethnicity/amhara.jpg",
         "slug": "amhara"
     }
 ]

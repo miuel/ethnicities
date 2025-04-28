@@ -1,0 +1,3351 @@
+[
+  {
+    "id": 1,
+    "ethnicity": "Han Chinese",
+    "continent": "Asia",
+    "countries": [
+      "China",
+      "Taiwan",
+      "Singapore"
+    ],
+    "population_percent_worldwide": 18
+  },
+  {
+    "id": 2,
+    "ethnicity": "Arab",
+    "continent": "Asia",
+    "countries": [
+      "Saudi Arabia",
+      "Egypt",
+      "Iraq",
+      "Syria",
+      "Morocco"
+    ],
+    "population_percent_worldwide": 5
+  },
+  {
+    "id": 3,
+    "ethnicity": "Bengali",
+    "continent": "Asia",
+    "countries": [
+      "Bangladesh",
+      "India"
+    ],
+    "population_percent_worldwide": 3.5
+  },
+  {
+    "id": 4,
+    "ethnicity": "Russian",
+    "continent": "Europe",
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Belarus"
+    ],
+    "population_percent_worldwide": 2
+  },
+  {
+    "id": 5,
+    "ethnicity": "Punjabi",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "population_percent_worldwide": 2
+  },
+  {
+    "id": 6,
+    "ethnicity": "Japanese",
+    "continent": "Asia",
+    "countries": [
+      "Japan"
+    ],
+    "population_percent_worldwide": 1.5
+  },
+  {
+    "id": 7,
+    "ethnicity": "Mexican Mestizo",
+    "continent": "North America",
+    "countries": [
+      "Mexico"
+    ],
+    "population_percent_worldwide": 1.3
+  },
+  {
+    "id": 8,
+    "ethnicity": "Yoruba",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria",
+      "Benin",
+      "Togo"
+    ],
+    "population_percent_worldwide": 1
+  },
+  {
+    "id": 9,
+    "ethnicity": "Vietnamese",
+    "continent": "Asia",
+    "countries": [
+      "Vietnam"
+    ],
+    "population_percent_worldwide": 1
+  },
+  {
+    "id": 10,
+    "ethnicity": "Zulu",
+    "continent": "Africa",
+    "countries": [
+      "South Africa"
+    ],
+    "population_percent_worldwide": 0.8
+  },
+  {
+    "id": 11,
+    "ethnicity": "German",
+    "continent": "Europe",
+    "countries": [
+      "Germany",
+      "Austria",
+      "Switzerland"
+    ],
+    "population_percent_worldwide": 1
+  },
+  {
+    "id": 12,
+    "ethnicity": "French",
+    "continent": "Europe",
+    "countries": [
+      "France",
+      "Belgium"
+    ],
+    "population_percent_worldwide": 0.9
+  },
+  {
+    "id": 13,
+    "ethnicity": "Turkish",
+    "continent": "Asia",
+    "countries": [
+      "Turkey"
+    ],
+    "population_percent_worldwide": 1
+  },
+  {
+    "id": 14,
+    "ethnicity": "Persian",
+    "continent": "Asia",
+    "countries": [
+      "Iran"
+    ],
+    "population_percent_worldwide": 1
+  },
+  {
+    "id": 15,
+    "ethnicity": "Igbo",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria"
+    ],
+    "population_percent_worldwide": 0.6
+  },
+  {
+    "id": 16,
+    "ethnicity": "English",
+    "continent": "Europe",
+    "countries": [
+      "United Kingdom"
+    ],
+    "population_percent_worldwide": 0.9
+  },
+  {
+    "id": 17,
+    "ethnicity": "Italian",
+    "continent": "Europe",
+    "countries": [
+      "Italy",
+      "Switzerland"
+    ],
+    "population_percent_worldwide": 0.8
+  },
+  {
+    "id": 18,
+    "ethnicity": "Thai",
+    "continent": "Asia",
+    "countries": [
+      "Thailand"
+    ],
+    "population_percent_worldwide": 0.7
+  },
+  {
+    "id": 19,
+    "ethnicity": "Korean",
+    "continent": "Asia",
+    "countries": [
+      "South Korea",
+      "North Korea"
+    ],
+    "population_percent_worldwide": 0.7
+  },
+  {
+    "id": 20,
+    "ethnicity": "Ethiopian",
+    "continent": "Africa",
+    "countries": [
+      "Ethiopia"
+    ],
+    "population_percent_worldwide": 0.6
+  },
+  {
+    "id": 21,
+    "ethnicity": "Polish",
+    "continent": "Europe",
+    "countries": [
+      "Poland"
+    ],
+    "population_percent_worldwide": 0.5
+  },
+  {
+    "id": 22,
+    "ethnicity": "Dutch",
+    "continent": "Europe",
+    "countries": [
+      "Netherlands"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 23,
+    "ethnicity": "Ukrainian",
+    "continent": "Europe",
+    "countries": [
+      "Ukraine"
+    ],
+    "population_percent_worldwide": 0.5
+  },
+  {
+    "id": 24,
+    "ethnicity": "Pashtun",
+    "continent": "Asia",
+    "countries": [
+      "Afghanistan",
+      "Pakistan"
+    ],
+    "population_percent_worldwide": 0.7
+  },
+  {
+    "id": 25,
+    "ethnicity": "Filipino",
+    "continent": "Asia",
+    "countries": [
+      "Philippines"
+    ],
+    "population_percent_worldwide": 1
+  },
+  {
+    "id": 26,
+    "ethnicity": "Malay",
+    "continent": "Asia",
+    "countries": [
+      "Malaysia",
+      "Indonesia",
+      "Singapore"
+    ],
+    "population_percent_worldwide": 0.8
+  },
+  {
+    "id": 27,
+    "ethnicity": "Romanian",
+    "continent": "Europe",
+    "countries": [
+      "Romania"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 28,
+    "ethnicity": "Hungarian",
+    "continent": "Europe",
+    "countries": [
+      "Hungary"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 29,
+    "ethnicity": "Czech",
+    "continent": "Europe",
+    "countries": [
+      "Czech Republic"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 30,
+    "ethnicity": "Swedish",
+    "continent": "Europe",
+    "countries": [
+      "Sweden"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 31,
+    "ethnicity": "Spanish",
+    "continent": "Europe",
+    "countries": [
+      "Spain"
+    ],
+    "population_percent_worldwide": 0.6
+  },
+  {
+    "id": 32,
+    "ethnicity": "Moroccan",
+    "continent": "Africa",
+    "countries": [
+      "Morocco"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 33,
+    "ethnicity": "Sudanese",
+    "continent": "Africa",
+    "countries": [
+      "Sudan"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 34,
+    "ethnicity": "Algerian",
+    "continent": "Africa",
+    "countries": [
+      "Algeria"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 35,
+    "ethnicity": "Kenyan",
+    "continent": "Africa",
+    "countries": [
+      "Kenya"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 36,
+    "ethnicity": "Ghanaian",
+    "continent": "Africa",
+    "countries": [
+      "Ghana"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 37,
+    "ethnicity": "Serbian",
+    "continent": "Europe",
+    "countries": [
+      "Serbia"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 38,
+    "ethnicity": "Croatian",
+    "continent": "Europe",
+    "countries": [
+      "Croatia"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 39,
+    "ethnicity": "Bulgarian",
+    "continent": "Europe",
+    "countries": [
+      "Bulgaria"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 40,
+    "ethnicity": "Norwegian",
+    "continent": "Europe",
+    "countries": [
+      "Norway"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 41,
+    "ethnicity": "Finnish",
+    "continent": "Europe",
+    "countries": [
+      "Finland"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 42,
+    "ethnicity": "Danish",
+    "continent": "Europe",
+    "countries": [
+      "Denmark"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 43,
+    "ethnicity": "Slovak",
+    "continent": "Europe",
+    "countries": [
+      "Slovakia"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 44,
+    "ethnicity": "Swiss",
+    "continent": "Europe",
+    "countries": [
+      "Switzerland"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 45,
+    "ethnicity": "Austrian",
+    "continent": "Europe",
+    "countries": [
+      "Austria"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 46,
+    "ethnicity": "Irish",
+    "continent": "Europe",
+    "countries": [
+      "Ireland"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 47,
+    "ethnicity": "Scottish",
+    "continent": "Europe",
+    "countries": [
+      "United Kingdom"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 48,
+    "ethnicity": "Welsh",
+    "continent": "Europe",
+    "countries": [
+      "United Kingdom"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 49,
+    "ethnicity": "Portuguese",
+    "continent": "Europe",
+    "countries": [
+      "Portugal"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 50,
+    "ethnicity": "Greek",
+    "continent": "Europe",
+    "countries": [
+      "Greece"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 51,
+    "ethnicity": "Basque",
+    "continent": "Europe",
+    "countries": [
+      "Spain",
+      "France"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 52,
+    "ethnicity": "Catalan",
+    "continent": "Europe",
+    "countries": [
+      "Spain"
+    ],
+    "population_percent_worldwide": 0.08
+  },
+  {
+    "id": 53,
+    "ethnicity": "Sicilian",
+    "continent": "Europe",
+    "countries": [
+      "Italy"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 54,
+    "ethnicity": "Quechua",
+    "continent": "South America",
+    "countries": [
+      "Peru",
+      "Bolivia",
+      "Ecuador"
+    ],
+    "population_percent_worldwide": 0.15
+  },
+  {
+    "id": 55,
+    "ethnicity": "Aymara",
+    "continent": "South America",
+    "countries": [
+      "Bolivia",
+      "Peru"
+    ],
+    "population_percent_worldwide": 0.08
+  },
+  {
+    "id": 56,
+    "ethnicity": "Guarani",
+    "continent": "South America",
+    "countries": [
+      "Paraguay",
+      "Argentina"
+    ],
+    "population_percent_worldwide": 0.07
+  },
+  {
+    "id": 57,
+    "ethnicity": "Mapuche",
+    "continent": "South America",
+    "countries": [
+      "Chile",
+      "Argentina"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 58,
+    "ethnicity": "Inuit",
+    "continent": "North America",
+    "countries": [
+      "Canada",
+      "Greenland"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 59,
+    "ethnicity": "Cherokee",
+    "continent": "North America",
+    "countries": [
+      "United States"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 60,
+    "ethnicity": "Navajo",
+    "continent": "North America",
+    "countries": [
+      "United States"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 61,
+    "ethnicity": "Maya",
+    "continent": "North America",
+    "countries": [
+      "Mexico",
+      "Guatemala"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 62,
+    "ethnicity": "Aztec",
+    "continent": "North America",
+    "countries": [
+      "Mexico"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 63,
+    "ethnicity": "Sami",
+    "continent": "Europe",
+    "countries": [
+      "Norway",
+      "Sweden",
+      "Finland"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 64,
+    "ethnicity": "Berber",
+    "continent": "Africa",
+    "countries": [
+      "Morocco",
+      "Algeria"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 65,
+    "ethnicity": "Amhara",
+    "continent": "Africa",
+    "countries": [
+      "Ethiopia"
+    ],
+    "population_percent_worldwide": 0.25
+  },
+  {
+    "id": 66,
+    "ethnicity": "Somali",
+    "continent": "Africa",
+    "countries": [
+      "Somalia"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 67,
+    "ethnicity": "Hausa",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria",
+      "Niger"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 68,
+    "ethnicity": "Shona",
+    "continent": "Africa",
+    "countries": [
+      "Zimbabwe"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 69,
+    "ethnicity": "Bantu",
+    "continent": "Africa",
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Kenya",
+      "South Africa"
+    ],
+    "population_percent_worldwide": 1
+  },
+  {
+    "id": 70,
+    "ethnicity": "Kurdish",
+    "continent": "Asia",
+    "countries": [
+      "Turkey",
+      "Iraq",
+      "Iran",
+      "Syria"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 71,
+    "ethnicity": "Jewish (Ashkenazi)",
+    "continent": "Europe",
+    "countries": [
+      "Germany",
+      "Poland",
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 72,
+    "ethnicity": "Jewish (Sephardic)",
+    "continent": "Europe",
+    "countries": [
+      "Spain",
+      "Portugal"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 73,
+    "ethnicity": "Jewish (Mizrahi)",
+    "continent": "Asia",
+    "countries": [
+      "Middle Eastern countries"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 74,
+    "ethnicity": "Tamil",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Sri Lanka"
+    ],
+    "population_percent_worldwide": 0.5
+  },
+  {
+    "id": 75,
+    "ethnicity": "Sinhalese",
+    "continent": "Asia",
+    "countries": [
+      "Sri Lanka"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 76,
+    "ethnicity": "Nepali",
+    "continent": "Asia",
+    "countries": [
+      "Nepal"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 77,
+    "ethnicity": "Burmese",
+    "continent": "Asia",
+    "countries": [
+      "Myanmar"
+    ],
+    "population_percent_worldwide": 0.25
+  },
+  {
+    "id": 78,
+    "ethnicity": "Khmer",
+    "continent": "Asia",
+    "countries": [
+      "Cambodia"
+    ],
+    "population_percent_worldwide": 0.15
+  },
+  {
+    "id": 79,
+    "ethnicity": "Lao",
+    "continent": "Asia",
+    "countries": [
+      "Laos"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 80,
+    "ethnicity": "Mongolian",
+    "continent": "Asia",
+    "countries": [
+      "Mongolia"
+    ],
+    "population_percent_worldwide": 0.08
+  },
+  {
+    "id": 81,
+    "ethnicity": "Kazakh",
+    "continent": "Asia",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 82,
+    "ethnicity": "Uzbek",
+    "continent": "Asia",
+    "countries": [
+      "Uzbekistan"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 83,
+    "ethnicity": "Tajik",
+    "continent": "Asia",
+    "countries": [
+      "Tajikistan"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 84,
+    "ethnicity": "Tibetan",
+    "continent": "Asia",
+    "countries": [
+      "China (Tibet)"
+    ],
+    "population_percent_worldwide": 0.07
+  },
+  {
+    "id": 85,
+    "ethnicity": "Chechen",
+    "continent": "Europe",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 86,
+    "ethnicity": "Georgian",
+    "continent": "Europe",
+    "countries": [
+      "Georgia"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 87,
+    "ethnicity": "Armenian",
+    "continent": "Asia",
+    "countries": [
+      "Armenia"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 88,
+    "ethnicity": "Azerbaijani",
+    "continent": "Asia",
+    "countries": [
+      "Azerbaijan"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 89,
+    "ethnicity": "Lithuanian",
+    "continent": "Europe",
+    "countries": [
+      "Lithuania"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 90,
+    "ethnicity": "Latvian",
+    "continent": "Europe",
+    "countries": [
+      "Latvia"
+    ],
+    "population_percent_worldwide": 0.04
+  },
+  {
+    "id": 91,
+    "ethnicity": "Estonian",
+    "continent": "Europe",
+    "countries": [
+      "Estonia"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 92,
+    "ethnicity": "Belarusian",
+    "continent": "Europe",
+    "countries": [
+      "Belarus"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 93,
+    "ethnicity": "Moldovan",
+    "continent": "Europe",
+    "countries": [
+      "Moldova"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 94,
+    "ethnicity": "Bosniak",
+    "continent": "Europe",
+    "countries": [
+      "Bosnia and Herzegovina"
+    ],
+    "population_percent_worldwide": 0.04
+  },
+  {
+    "id": 95,
+    "ethnicity": "Slovenian",
+    "continent": "Europe",
+    "countries": [
+      "Slovenia"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 96,
+    "ethnicity": "Macedonian",
+    "continent": "Europe",
+    "countries": [
+      "North Macedonia"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 97,
+    "ethnicity": "Albanian",
+    "continent": "Europe",
+    "countries": [
+      "Albania"
+    ],
+    "population_percent_worldwide": 0.08
+  },
+  {
+    "id": 98,
+    "ethnicity": "Kosovar",
+    "continent": "Europe",
+    "countries": [
+      "Kosovo"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 99,
+    "ethnicity": "Malagasy",
+    "continent": "Africa",
+    "countries": [
+      "Madagascar"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 100,
+    "ethnicity": "Papuan",
+    "continent": "Oceania",
+    "countries": [
+      "Papua New Guinea"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 101,
+    "ethnicity": "Fijian",
+    "continent": "Oceania",
+    "countries": [
+      "Fiji"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 102,
+    "ethnicity": "Samoan",
+    "continent": "Oceania",
+    "countries": [
+      "Samoa"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 103,
+    "ethnicity": "Tongan",
+    "continent": "Oceania",
+    "countries": [
+      "Tonga"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 104,
+    "ethnicity": "Maori",
+    "continent": "Oceania",
+    "countries": [
+      "New Zealand"
+    ],
+    "population_percent_worldwide": 0.08
+  },
+  {
+    "id": 105,
+    "ethnicity": "Hawaiian",
+    "continent": "Oceania",
+    "countries": [
+      "United States (Hawaii)"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 106,
+    "ethnicity": "Polynesian",
+    "continent": "Oceania",
+    "countries": [
+      "Various Pacific Islands"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 107,
+    "ethnicity": "Melanesian",
+    "continent": "Oceania",
+    "countries": [
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Vanuatu"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 108,
+    "ethnicity": "Micronesian",
+    "continent": "Oceania",
+    "countries": [
+      "Micronesia",
+      "Marshall Islands"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 109,
+    "ethnicity": "Aboriginal Australian",
+    "continent": "Oceania",
+    "countries": [
+      "Australia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 110,
+    "ethnicity": "Khoisan",
+    "continent": "Africa",
+    "countries": [
+      "South Africa",
+      "Namibia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 111,
+    "ethnicity": "Zulu",
+    "continent": "Africa",
+    "countries": [
+      "South Africa"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 112,
+    "ethnicity": "Xhosa",
+    "continent": "Africa",
+    "countries": [
+      "South Africa"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 113,
+    "ethnicity": "Tswana",
+    "continent": "Africa",
+    "countries": [
+      "Botswana",
+      "South Africa"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 114,
+    "ethnicity": "Sotho",
+    "continent": "Africa",
+    "countries": [
+      "Lesotho",
+      "South Africa"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 115,
+    "ethnicity": "Malawian",
+    "continent": "Africa",
+    "countries": [
+      "Malawi"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 116,
+    "ethnicity": "Rwandan",
+    "continent": "Africa",
+    "countries": [
+      "Rwanda"
+    ],
+    "population_percent_worldwide": 0.12
+  },
+  {
+    "id": 117,
+    "ethnicity": "Burundian",
+    "continent": "Africa",
+    "countries": [
+      "Burundi"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 118,
+    "ethnicity": "Ugandan",
+    "continent": "Africa",
+    "countries": [
+      "Uganda"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 119,
+    "ethnicity": "Kenyan",
+    "continent": "Africa",
+    "countries": [
+      "Kenya"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 120,
+    "ethnicity": "Tanzanian",
+    "continent": "Africa",
+    "countries": [
+      "Tanzania"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 121,
+    "ethnicity": "Ivorian",
+    "continent": "Africa",
+    "countries": [
+      "Ivory Coast"
+    ],
+    "population_percent_worldwide": 0.15
+  },
+  {
+    "id": 122,
+    "ethnicity": "Senegalese",
+    "continent": "Africa",
+    "countries": [
+      "Senegal"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 123,
+    "ethnicity": "Malian",
+    "continent": "Africa",
+    "countries": [
+      "Mali"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 124,
+    "ethnicity": "Ghanaian",
+    "continent": "Africa",
+    "countries": [
+      "Ghana"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 125,
+    "ethnicity": "Cameroonian",
+    "continent": "Africa",
+    "countries": [
+      "Cameroon"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 126,
+    "ethnicity": "Chadian",
+    "continent": "Africa",
+    "countries": [
+      "Chad"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 127,
+    "ethnicity": "Sudanese",
+    "continent": "Africa",
+    "countries": [
+      "Sudan"
+    ],
+    "population_percent_worldwide": 0.15
+  },
+  {
+    "id": 128,
+    "ethnicity": "South Sudanese",
+    "continent": "Africa",
+    "countries": [
+      "South Sudan"
+    ],
+    "population_percent_worldwide": 0.07
+  },
+  {
+    "id": 129,
+    "ethnicity": "Eritrean",
+    "continent": "Africa",
+    "countries": [
+      "Eritrea"
+    ],
+    "population_percent_worldwide": 0.07
+  },
+  {
+    "id": 130,
+    "ethnicity": "Djiboutian",
+    "continent": "Africa",
+    "countries": [
+      "Djibouti"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 131,
+    "ethnicity": "Liberian",
+    "continent": "Africa",
+    "countries": [
+      "Liberia"
+    ],
+    "population_percent_worldwide": 0.07
+  },
+  {
+    "id": 132,
+    "ethnicity": "Sierra Leonean",
+    "continent": "Africa",
+    "countries": [
+      "Sierra Leone"
+    ],
+    "population_percent_worldwide": 0.07
+  },
+  {
+    "id": 133,
+    "ethnicity": "Gambian",
+    "continent": "Africa",
+    "countries": [
+      "Gambia"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 134,
+    "ethnicity": "Mauritanian",
+    "continent": "Africa",
+    "countries": [
+      "Mauritania"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 135,
+    "ethnicity": "Nigerien",
+    "continent": "Africa",
+    "countries": [
+      "Niger"
+    ],
+    "population_percent_worldwide": 0.08
+  },
+  {
+    "id": 136,
+    "ethnicity": "Central African",
+    "continent": "Africa",
+    "countries": [
+      "Central African Republic"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 137,
+    "ethnicity": "Congolese (Kinshasa)",
+    "continent": "Africa",
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 138,
+    "ethnicity": "Congolese (Brazzaville)",
+    "continent": "Africa",
+    "countries": [
+      "Republic of the Congo"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 139,
+    "ethnicity": "Gabonese",
+    "continent": "Africa",
+    "countries": [
+      "Gabon"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 140,
+    "ethnicity": "Equatorial Guinean",
+    "continent": "Africa",
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 141,
+    "ethnicity": "Angolan",
+    "continent": "Africa",
+    "countries": [
+      "Angola"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 142,
+    "ethnicity": "Mozambican",
+    "continent": "Africa",
+    "countries": [
+      "Mozambique"
+    ],
+    "population_percent_worldwide": 0.15
+  },
+  {
+    "id": 143,
+    "ethnicity": "Namibian",
+    "continent": "Africa",
+    "countries": [
+      "Namibia"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 144,
+    "ethnicity": "Botswanan",
+    "continent": "Africa",
+    "countries": [
+      "Botswana"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 145,
+    "ethnicity": "Swazi",
+    "continent": "Africa",
+    "countries": [
+      "Eswatini"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 146,
+    "ethnicity": "Lesothan",
+    "continent": "Africa",
+    "countries": [
+      "Lesotho"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 147,
+    "ethnicity": "Comorian",
+    "continent": "Africa",
+    "countries": [
+      "Comoros"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 148,
+    "ethnicity": "Seychellois",
+    "continent": "Africa",
+    "countries": [
+      "Seychelles"
+    ],
+    "population_percent_worldwide": 0.005
+  },
+  {
+    "id": 149,
+    "ethnicity": "Mauritian",
+    "continent": "Africa",
+    "countries": [
+      "Mauritius"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 150,
+    "ethnicity": "Malagasy (Highland)",
+    "continent": "Africa",
+    "countries": [
+      "Madagascar"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 151,
+    "ethnicity": "Malagasy (Côte)",
+    "continent": "Africa",
+    "countries": [
+      "Madagascar"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 152,
+    "ethnicity": "Somali",
+    "continent": "Africa",
+    "countries": [
+      "Somalia",
+      "Djibouti",
+      "Ethiopia",
+      "Kenya"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 153,
+    "ethnicity": "Oromo",
+    "continent": "Africa",
+    "countries": [
+      "Ethiopia",
+      "Kenya",
+      "Somalia"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 154,
+    "ethnicity": "Tigrayan",
+    "continent": "Africa",
+    "countries": [
+      "Ethiopia"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 155,
+    "ethnicity": "Amhara",
+    "continent": "Africa",
+    "countries": [
+      "Ethiopia"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 156,
+    "ethnicity": "Afar",
+    "continent": "Africa",
+    "countries": [
+      "Ethiopia",
+      "Djibouti",
+      "Eritrea"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 157,
+    "ethnicity": "Hutu",
+    "continent": "Africa",
+    "countries": [
+      "Rwanda",
+      "Burundi",
+      "Uganda"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 158,
+    "ethnicity": "Tutsi",
+    "continent": "Africa",
+    "countries": [
+      "Rwanda",
+      "Burundi"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 159,
+    "ethnicity": "Batwa",
+    "continent": "Africa",
+    "countries": [
+      "Rwanda",
+      "Burundi",
+      "Uganda",
+      "Democratic Republic of Congo"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 161,
+    "ethnicity": "Amazigh",
+    "continent": "Africa",
+    "countries": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Libya"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 162,
+    "ethnicity": "Copts",
+    "continent": "Africa",
+    "countries": [
+      "Egypt"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 163,
+    "ethnicity": "Moorish",
+    "continent": "Africa",
+    "countries": [
+      "Mauritania",
+      "Western Sahara"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 164,
+    "ethnicity": "Arabs",
+    "continent": "Africa",
+    "countries": [
+      "Various North African countries"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 165,
+    "ethnicity": "Tuareg",
+    "continent": "Africa",
+    "countries": [
+      "Algeria",
+      "Libya",
+      "Mali",
+      "Niger",
+      "Burkina Faso",
+      "Mauritania"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 160,
+    "ethnicity": "Berber",
+    "continent": "Africa",
+    "countries": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Libya"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 166,
+    "ethnicity": "Berber",
+    "continent": "Africa",
+    "countries": [
+      "Algeria",
+      "Tunisia",
+      "Libya"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 167,
+    "ethnicity": "Hausa",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria",
+      "Niger",
+      "Cameroon",
+      "Chad"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 168,
+    "ethnicity": "Fulani",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria",
+      "Senegal",
+      "Guinea",
+      "Mali",
+      "Burkina Faso"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 169,
+    "ethnicity": "Igbo",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 170,
+    "ethnicity": "Yoruba",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria",
+      "Benin",
+      "Togo"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 171,
+    "ethnicity": "Nigerian",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 172,
+    "ethnicity": "Ghanaian",
+    "continent": "Africa",
+    "countries": [
+      "Ghana"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 173,
+    "ethnicity": "Malagasy",
+    "continent": "Africa",
+    "countries": [
+      "Madagascar"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 174,
+    "ethnicity": "Swazi",
+    "continent": "Africa",
+    "countries": [
+      "Eswatini"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 175,
+    "ethnicity": "Xhosa",
+    "continent": "Africa",
+    "countries": [
+      "South Africa"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 176,
+    "ethnicity": "Afghan",
+    "continent": "Asia",
+    "countries": [
+      "Afghanistan"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 177,
+    "ethnicity": "Kurd",
+    "continent": "Asia",
+    "countries": [
+      "Turkey",
+      "Iraq",
+      "Syria",
+      "Iran"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 178,
+    "ethnicity": "Pashtun",
+    "continent": "Asia",
+    "countries": [
+      "Afghanistan",
+      "Pakistan"
+    ],
+    "population_percent_worldwide": 0.04
+  },
+  {
+    "id": 179,
+    "ethnicity": "Tajik",
+    "continent": "Asia",
+    "countries": [
+      "Tajikistan",
+      "Afghanistan",
+      "Uzbekistan"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 180,
+    "ethnicity": "Uzbek",
+    "continent": "Asia",
+    "countries": [
+      "Uzbekistan"
+    ],
+    "population_percent_worldwide": 0.04
+  },
+  {
+    "id": 181,
+    "ethnicity": "Kazakh",
+    "continent": "Asia",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 182,
+    "ethnicity": "Kyrgyz",
+    "continent": "Asia",
+    "countries": [
+      "Kyrgyzstan"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 183,
+    "ethnicity": "Tatar",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 184,
+    "ethnicity": "Bashkir",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 185,
+    "ethnicity": "Armenian",
+    "continent": "Asia",
+    "countries": [
+      "Armenia",
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 186,
+    "ethnicity": "Georgian",
+    "continent": "Asia",
+    "countries": [
+      "Georgia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 187,
+    "ethnicity": "Chechen",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 188,
+    "ethnicity": "Dargins",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 189,
+    "ethnicity": "Ossetian",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 190,
+    "ethnicity": "Ingush",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 191,
+    "ethnicity": "Azerbaijani",
+    "continent": "Asia",
+    "countries": [
+      "Azerbaijan",
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 192,
+    "ethnicity": "Karakalpak",
+    "continent": "Asia",
+    "countries": [
+      "Uzbekistan"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 193,
+    "ethnicity": "Uyghur",
+    "continent": "Asia",
+    "countries": [
+      "China"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 194,
+    "ethnicity": "Mongol",
+    "continent": "Asia",
+    "countries": [
+      "Mongolia",
+      "China"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 195,
+    "ethnicity": "Tibetan",
+    "continent": "Asia",
+    "countries": [
+      "China",
+      "India",
+      "Nepal",
+      "Bhutan"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 196,
+    "ethnicity": "Burmese",
+    "continent": "Asia",
+    "countries": [
+      "Myanmar"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 197,
+    "ethnicity": "Khmer",
+    "continent": "Asia",
+    "countries": [
+      "Cambodia"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 198,
+    "ethnicity": "Thai",
+    "continent": "Asia",
+    "countries": [
+      "Thailand"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 199,
+    "ethnicity": "Laotian",
+    "continent": "Asia",
+    "countries": [
+      "Laos"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 200,
+    "ethnicity": "Vietnamese",
+    "continent": "Asia",
+    "countries": [
+      "Vietnam"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 201,
+    "ethnicity": "Cambodian",
+    "continent": "Asia",
+    "countries": [
+      "Cambodia"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 202,
+    "ethnicity": "Hmong",
+    "continent": "Asia",
+    "countries": [
+      "China",
+      "Vietnam",
+      "Laos",
+      "Thailand"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 203,
+    "ethnicity": "Kachin",
+    "continent": "Asia",
+    "countries": [
+      "Myanmar",
+      "China"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 204,
+    "ethnicity": "Rohingya",
+    "continent": "Asia",
+    "countries": [
+      "Myanmar"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 205,
+    "ethnicity": "Mizo",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Myanmar"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 206,
+    "ethnicity": "Naga",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Myanmar"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 207,
+    "ethnicity": "Meitei",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 208,
+    "ethnicity": "Sikh",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 209,
+    "ethnicity": "Brahmin",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 210,
+    "ethnicity": "Dalit",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 211,
+    "ethnicity": "Bodo",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 212,
+    "ethnicity": "Madhesi",
+    "continent": "Asia",
+    "countries": [
+      "Nepal",
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 213,
+    "ethnicity": "Maitri",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Nepal"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 214,
+    "ethnicity": "Pahari",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 215,
+    "ethnicity": "Sindhi",
+    "continent": "Asia",
+    "countries": [
+      "Pakistan",
+      "India"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 216,
+    "ethnicity": "Pashtun",
+    "continent": "Asia",
+    "countries": [
+      "Pakistan"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 217,
+    "ethnicity": "Baloch",
+    "continent": "Asia",
+    "countries": [
+      "Pakistan",
+      "Iran"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 218,
+    "ethnicity": "Punjabi",
+    "continent": "Asia",
+    "countries": [
+      "Pakistan",
+      "India"
+    ],
+    "population_percent_worldwide": 0.04
+  },
+  {
+    "id": 219,
+    "ethnicity": "Kashmiri",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 220,
+    "ethnicity": "Tamil",
+    "continent": "Asia",
+    "countries": [
+      "Sri Lanka",
+      "India",
+      "Singapore",
+      "Malaysia"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 221,
+    "ethnicity": "Malayali",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 222,
+    "ethnicity": "Kannada",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 223,
+    "ethnicity": "Marathi",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 224,
+    "ethnicity": "Telugu",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 225,
+    "ethnicity": "Bengali",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Bangladesh"
+    ],
+    "population_percent_worldwide": 0.04
+  },
+  {
+    "id": 226,
+    "ethnicity": "Urdu",
+    "continent": "Asia",
+    "countries": [
+      "Pakistan",
+      "India"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 227,
+    "ethnicity": "Assamese",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 228,
+    "ethnicity": "Gujarati",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 229,
+    "ethnicity": "Odisha",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 230,
+    "ethnicity": "Rajasthani",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 231,
+    "ethnicity": "Bihari",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Nepal"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 232,
+    "ethnicity": "Nepali",
+    "continent": "Asia",
+    "countries": [
+      "Nepal",
+      "India",
+      "Bhutan"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 233,
+    "ethnicity": "Maharashtrian",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 234,
+    "ethnicity": "Marwari",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 235,
+    "ethnicity": "Rajput",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 236,
+    "ethnicity": "Keralite",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 237,
+    "ethnicity": "Mallu",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 238,
+    "ethnicity": "Adivasi",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 239,
+    "ethnicity": "Gond",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 240,
+    "ethnicity": "Bhil",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 241,
+    "ethnicity": "Limbu",
+    "continent": "Asia",
+    "countries": [
+      "Nepal",
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 242,
+    "ethnicity": "Tharu",
+    "continent": "Asia",
+    "countries": [
+      "Nepal",
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 243,
+    "ethnicity": "Brahman",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 244,
+    "ethnicity": "Tamang",
+    "continent": "Asia",
+    "countries": [
+      "Nepal",
+      "India"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 245,
+    "ethnicity": "Sherpa",
+    "continent": "Asia",
+    "countries": [
+      "Nepal",
+      "India",
+      "China"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 246,
+    "ethnicity": "Rajbanshi",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Nepal"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 247,
+    "ethnicity": "Madhesi",
+    "continent": "Asia",
+    "countries": [
+      "Nepal"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 248,
+    "ethnicity": "Gorkha",
+    "continent": "Asia",
+    "countries": [
+      "Nepal"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 249,
+    "ethnicity": "Sikkimese",
+    "continent": "Asia",
+    "countries": [
+      "India"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 250,
+    "ethnicity": "Tibetan",
+    "continent": "Asia",
+    "countries": [
+      "China",
+      "Nepal",
+      "India",
+      "Bhutan"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 251,
+    "ethnicity": "Taiwanese",
+    "continent": "Asia",
+    "countries": [
+      "Taiwan"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 252,
+    "ethnicity": "Mongolian",
+    "continent": "Asia",
+    "countries": [
+      "Mongolia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 253,
+    "ethnicity": "Kazakh",
+    "continent": "Asia",
+    "countries": [
+      "Kazakhstan",
+      "China",
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 254,
+    "ethnicity": "Uzbek",
+    "continent": "Asia",
+    "countries": [
+      "Uzbekistan"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 255,
+    "ethnicity": "Turkmen",
+    "continent": "Asia",
+    "countries": [
+      "Turkmenistan"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 256,
+    "ethnicity": "Kyrgyz",
+    "continent": "Asia",
+    "countries": [
+      "Kyrgyzstan"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 257,
+    "ethnicity": "Tajik",
+    "continent": "Asia",
+    "countries": [
+      "Tajikistan",
+      "Afghanistan",
+      "China"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 258,
+    "ethnicity": "Turkic",
+    "continent": "Asia",
+    "countries": [
+      "Central Asia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 259,
+    "ethnicity": "Siberian",
+    "continent": "Asia",
+    "countries": [
+      "Russia",
+      "Mongolia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 260,
+    "ethnicity": "Yakut",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 261,
+    "ethnicity": "Chuvash",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 262,
+    "ethnicity": "Mari",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 263,
+    "ethnicity": "Bashkir",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 264,
+    "ethnicity": "Udmurt",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 265,
+    "ethnicity": "Ossetian",
+    "continent": "Asia",
+    "countries": [
+      "Russia",
+      "Georgia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 266,
+    "ethnicity": "Chechen",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 267,
+    "ethnicity": "Circassian",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 268,
+    "ethnicity": "Avar",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 269,
+    "ethnicity": "Dagestani",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 270,
+    "ethnicity": "Tatar",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 271,
+    "ethnicity": "Kalmyk",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 272,
+    "ethnicity": "Khanty",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 273,
+    "ethnicity": "Mordvin",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 274,
+    "ethnicity": "Buryat",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 275,
+    "ethnicity": "Ingush",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 276,
+    "ethnicity": "Kabardin",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 277,
+    "ethnicity": "Cossack",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 278,
+    "ethnicity": "Sakha",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 279,
+    "ethnicity": "Veps",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 280,
+    "ethnicity": "Koryak",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 281,
+    "ethnicity": "Chukchi",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 282,
+    "ethnicity": "Nivkh",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 283,
+    "ethnicity": "Evenk",
+    "continent": "Asia",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 284,
+    "ethnicity": "Azerbaijani",
+    "continent": "Asia",
+    "countries": [
+      "Azerbaijan"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 285,
+    "ethnicity": "Armenian",
+    "continent": "Asia",
+    "countries": [
+      "Armenia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 286,
+    "ethnicity": "Georgian",
+    "continent": "Asia",
+    "countries": [
+      "Georgia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 287,
+    "ethnicity": "Abkhaz",
+    "continent": "Asia",
+    "countries": [
+      "Georgia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 288,
+    "ethnicity": "Ossetian",
+    "continent": "Asia",
+    "countries": [
+      "Georgia",
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 289,
+    "ethnicity": "Kurd",
+    "continent": "Asia",
+    "countries": [
+      "Turkey",
+      "Syria",
+      "Iraq",
+      "Iran"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 290,
+    "ethnicity": "Zaza",
+    "continent": "Asia",
+    "countries": [
+      "Turkey"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 291,
+    "ethnicity": "Albanian",
+    "continent": "Europe",
+    "countries": [
+      "Albania",
+      "Kosovo"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 292,
+    "ethnicity": "Bosniak",
+    "continent": "Europe",
+    "countries": [
+      "Bosnia and Herzegovina"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 293,
+    "ethnicity": "Macedonian",
+    "continent": "Europe",
+    "countries": [
+      "North Macedonia"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 294,
+    "ethnicity": "Serb",
+    "continent": "Europe",
+    "countries": [
+      "Serbia",
+      "Bosnia and Herzegovina",
+      "Croatia"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 295,
+    "ethnicity": "Croat",
+    "continent": "Europe",
+    "countries": [
+      "Croatia",
+      "Bosnia and Herzegovina"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 296,
+    "ethnicity": "Montenegrin",
+    "continent": "Europe",
+    "countries": [
+      "Montenegro"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 297,
+    "ethnicity": "Moldovan",
+    "continent": "Europe",
+    "countries": [
+      "Moldova"
+    ],
+    "population_percent_worldwide": 0.01
+  },
+  {
+    "id": 298,
+    "ethnicity": "Romanian",
+    "continent": "Europe",
+    "countries": [
+      "Romania"
+    ],
+    "population_percent_worldwide": 0.04
+  },
+  {
+    "id": 299,
+    "ethnicity": "Hungarian",
+    "continent": "Europe",
+    "countries": [
+      "Hungary"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 301,
+    "ethnicity": "Hmong",
+    "continent": "Asia",
+    "countries": [
+      "China",
+      "Vietnam",
+      "Laos",
+      "Thailand"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 302,
+    "ethnicity": "Baloch",
+    "continent": "Asia",
+    "countries": [
+      "Pakistan",
+      "Iran",
+      "Afghanistan"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 303,
+    "ethnicity": "Kazakh",
+    "continent": "Asia",
+    "countries": [
+      "Kazakhstan",
+      "China",
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 304,
+    "ethnicity": "Pashtun",
+    "continent": "Asia",
+    "countries": [
+      "Afghanistan",
+      "Pakistan"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 305,
+    "ethnicity": "Tatar",
+    "continent": "Europe",
+    "countries": [
+      "Russia",
+      "Kazakhstan"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 306,
+    "ethnicity": "Mingrelian",
+    "continent": "Europe",
+    "countries": [
+      "Georgia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 307,
+    "ethnicity": "Kurdish",
+    "continent": "Asia",
+    "countries": [
+      "Turkey",
+      "Iraq",
+      "Syria",
+      "Iran"
+    ],
+    "population_percent_worldwide": 1.5
+  },
+  {
+    "id": 308,
+    "ethnicity": "Taiwanese",
+    "continent": "Asia",
+    "countries": [
+      "Taiwan"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 309,
+    "ethnicity": "Bashkir",
+    "continent": "Europe",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.02
+  },
+  {
+    "id": 310,
+    "ethnicity": "Ukrainian",
+    "continent": "Europe",
+    "countries": [
+      "Ukraine"
+    ],
+    "population_percent_worldwide": 0.5
+  },
+  {
+    "id": 311,
+    "ethnicity": "Manchu",
+    "continent": "Asia",
+    "countries": [
+      "China"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 312,
+    "ethnicity": "Iban",
+    "continent": "Asia",
+    "countries": [
+      "Malaysia",
+      "Brunei",
+      "Indonesia"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 313,
+    "ethnicity": "Chechen",
+    "continent": "Europe",
+    "countries": [
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 314,
+    "ethnicity": "Yoruba",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria",
+      "Benin",
+      "Togo"
+    ],
+    "population_percent_worldwide": 1
+  },
+  {
+    "id": 315,
+    "ethnicity": "Uzbek",
+    "continent": "Asia",
+    "countries": [
+      "Uzbekistan"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 316,
+    "ethnicity": "Aymara",
+    "continent": "South America",
+    "countries": [
+      "Bolivia",
+      "Peru",
+      "Chile"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 317,
+    "ethnicity": "Roma",
+    "continent": "Europe",
+    "countries": [
+      "Romani people",
+      "Romania",
+      "Bulgaria",
+      "Turkey"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 318,
+    "ethnicity": "Palestinian",
+    "continent": "Asia",
+    "countries": [
+      "Palestine",
+      "Jordan",
+      "Lebanon",
+      "Syria"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 319,
+    "ethnicity": "Haitian",
+    "continent": "North America",
+    "countries": [
+      "Haiti"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 320,
+    "ethnicity": "Burmese",
+    "continent": "Asia",
+    "countries": [
+      "Myanmar"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 321,
+    "ethnicity": "Luo",
+    "continent": "Africa",
+    "countries": [
+      "Kenya",
+      "Uganda",
+      "Tanzania"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 322,
+    "ethnicity": "Tigray",
+    "continent": "Africa",
+    "countries": [
+      "Ethiopia",
+      "Eritrea"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 323,
+    "ethnicity": "Māori",
+    "continent": "Oceania",
+    "countries": [
+      "New Zealand"
+    ],
+    "population_percent_worldwide": 0.03
+  },
+  {
+    "id": 324,
+    "ethnicity": "Ewe",
+    "continent": "Africa",
+    "countries": [
+      "Ghana",
+      "Togo",
+      "Benin"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 325,
+    "ethnicity": "Berber",
+    "continent": "Africa",
+    "countries": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Libya"
+    ],
+    "population_percent_worldwide": 0.5
+  },
+  {
+    "id": 326,
+    "ethnicity": "Tigrinya",
+    "continent": "Africa",
+    "countries": [
+      "Ethiopia",
+      "Eritrea"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 327,
+    "ethnicity": "Xhosa",
+    "continent": "Africa",
+    "countries": [
+      "South Africa",
+      "Lesotho"
+    ],
+    "population_percent_worldwide": 0.8
+  },
+  {
+    "id": 328,
+    "ethnicity": "Zulu",
+    "continent": "Africa",
+    "countries": [
+      "South Africa"
+    ],
+    "population_percent_worldwide": 0.8
+  },
+  {
+    "id": 329,
+    "ethnicity": "Azerbaijani",
+    "continent": "Asia",
+    "countries": [
+      "Azerbaijan",
+      "Iran"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 330,
+    "ethnicity": "Tamil",
+    "continent": "Asia",
+    "countries": [
+      "India",
+      "Sri Lanka"
+    ],
+    "population_percent_worldwide": 0.25
+  },
+  {
+    "id": 331,
+    "ethnicity": "Bengali",
+    "continent": "Asia",
+    "countries": [
+      "Bangladesh",
+      "India"
+    ],
+    "population_percent_worldwide": 3.5
+  },
+  {
+    "id": 332,
+    "ethnicity": "Rohingya",
+    "continent": "Asia",
+    "countries": [
+      "Myanmar",
+      "Bangladesh"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 333,
+    "ethnicity": "Hmong",
+    "continent": "Asia",
+    "countries": [
+      "China",
+      "Vietnam",
+      "Laos",
+      "Thailand"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 334,
+    "ethnicity": "Fulani",
+    "continent": "Africa",
+    "countries": [
+      "Nigeria",
+      "Senegal",
+      "Mali",
+      "Guinea"
+    ],
+    "population_percent_worldwide": 0.3
+  },
+  {
+    "id": 335,
+    "ethnicity": "Tajik",
+    "continent": "Asia",
+    "countries": [
+      "Tajikistan",
+      "Afghanistan",
+      "Uzbekistan"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 336,
+    "ethnicity": "Somali",
+    "continent": "Africa",
+    "countries": [
+      "Somalia",
+      "Ethiopia",
+      "Djibouti",
+      "Kenya"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 337,
+    "ethnicity": "Azerbaijani",
+    "continent": "Asia",
+    "countries": [
+      "Azerbaijan",
+      "Iran"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 338,
+    "ethnicity": "Ganda",
+    "continent": "Africa",
+    "countries": [
+      "Uganda"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 339,
+    "ethnicity": "Quechua",
+    "continent": "South America",
+    "countries": [
+      "Peru",
+      "Bolivia",
+      "Ecuador",
+      "Chile",
+      "Argentina"
+    ],
+    "population_percent_worldwide": 0.4
+  },
+  {
+    "id": 340,
+    "ethnicity": "Haitian",
+    "continent": "North America",
+    "countries": [
+      "Haiti"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 341,
+    "ethnicity": "Khmer",
+    "continent": "Asia",
+    "countries": [
+      "Cambodia"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 342,
+    "ethnicity": "Baloch",
+    "continent": "Asia",
+    "countries": [
+      "Pakistan",
+      "Iran",
+      "Afghanistan"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 343,
+    "ethnicity": "Shona",
+    "continent": "Africa",
+    "countries": [
+      "Zimbabwe",
+      "Mozambique"
+    ],
+    "population_percent_worldwide": 0.5
+  },
+  {
+    "id": 344,
+    "ethnicity": "Armenian",
+    "continent": "Asia",
+    "countries": [
+      "Armenia",
+      "Russia"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 345,
+    "ethnicity": "Macedonian",
+    "continent": "Europe",
+    "countries": [
+      "North Macedonia",
+      "Greece",
+      "Bulgaria"
+    ],
+    "population_percent_worldwide": 0.05
+  },
+  {
+    "id": 346,
+    "ethnicity": "Wolof",
+    "continent": "Africa",
+    "countries": [
+      "Senegal",
+      "Gambia",
+      "Mauritania"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 347,
+    "ethnicity": "Aymara",
+    "continent": "South America",
+    "countries": [
+      "Bolivia",
+      "Peru",
+      "Chile"
+    ],
+    "population_percent_worldwide": 0.2
+  },
+  {
+    "id": 348,
+    "ethnicity": "Rwandan",
+    "continent": "Africa",
+    "countries": [
+      "Rwanda",
+      "Uganda",
+      "Tanzania"
+    ],
+    "population_percent_worldwide": 0.1
+  },
+  {
+    "id": 349,
+    "ethnicity": "Berber",
+    "continent": "Africa",
+    "countries": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Libya"
+    ],
+    "population_percent_worldwide": 0.5
+  },
+  {
+    "id": 350,
+    "ethnicity": "Māori",
+    "continent": "Oceania",
+    "countries": [
+      "New Zealand"
+    ],
+    "population_percent_worldwide": 0.03
+  }
+]

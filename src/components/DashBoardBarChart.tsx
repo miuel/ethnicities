@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { TrendingUp } from "lucide-react"
-import { Bar, BarChart, CartesianGrid, XAxis } from "recharts"
+import { TrendingUp } from "lucide-react";
+import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 
 import {
   Card,
@@ -10,52 +10,42 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/card";
 import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@/components/ui/chart"
-import { useEffect, useState } from "react"
-import { useSession } from "next-auth/react"
-import { useRouter } from "next/navigation"
-import { useSessionWrapper } from "@/hooks/useSession"
+} from "@/components/ui/chart";
 
-interface ChartData {
-  ethnicity: string
-  population_percent_worldwide: number
+
+export interface ChartData {
+  ethnicity: string;
+  population_percent_worldwide: number;
 }
 
-
+interface DashBoardBarChartProps {
+  chartData: ChartData[];
+}
 
 const chartConfig = {
   population_percent_worldwide: {
     label: "worldwide population % ",
     color: "hsl(var(--chart-4))",
   },
-} satisfies ChartConfig
+} as ChartConfig;
 
-export function DashBoardBarChart() {
-  const { data: session } = useSession()
-  const username = session?.user?.name || "User"; 
-
-  useSessionWrapper()
-  //const chartData : ChartData[]
-  const [chartData, setChartData] = useState<ChartData[]>([]);
-
-  useEffect(() => {
-    fetch('/api/data')
-      .then((res) => res.json())
-      .then((data) => setChartData(data));
-  }, []);
-
+export const DashBoardBarChart: React.FC<DashBoardBarChartProps> = ({
+  chartData,
+}) => {
 
   return (
-    <Card className="bg-background">
+    <Card className="bg-background mb-11">
       <CardHeader>
-        <CardTitle>Welcome {username}</CardTitle>
-        <CardDescription>We presented a chart with world's largest ethnic group</CardDescription>
+        <CardTitle>Welcome 👋🏾</CardTitle>
+        <CardDescription>
+          We presented a chart with world's largest ethnic group
+        </CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer config={chartConfig}>
@@ -66,24 +56,30 @@ export function DashBoardBarChart() {
               tickLine={false}
               tickMargin={10}
               axisLine={false}
-              tickFormatter={(value) => value.slice(0, 5)}
+              tickFormatter={(value) => value.slice(0, 4)}
             />
             <ChartTooltip
               cursor={false}
               content={<ChartTooltipContent hideLabel />}
             />
-            <Bar dataKey="population_percent_worldwide" fill="var(--color-ethnicity)" radius={8} />
+            <Bar
+              dataKey="population_percent_worldwide"
+              fill="var(--color-population_percent_worldwide)"
+              radius={8}
+            />
           </BarChart>
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col items-start gap-2 text-sm">
         <div className="flex gap-2 font-medium leading-none">
-          Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
+          From the bustling streets of Asia to the vibrant communities of Africa
+          and beyond, we celebrate the people who shape our world.{" "}
+          <TrendingUp className="h-4 w-4" />
         </div>
         <div className="leading-none text-muted-foreground">
-          Showing total visitors for the last 6 months
+          Showing total of the 20 world's largest ethnic groups
         </div>
       </CardFooter>
     </Card>
-  )
-}
+  );
+};

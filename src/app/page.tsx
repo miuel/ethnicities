@@ -23,10 +23,10 @@ export default function Home() {
         </div>
 
         <div className="col-start-2 col-span-3 row-start-7 row-span-2 z-10 ">
-          <h1 className=" italic font-bold text-6xl font-editorialNew text-white">
+          <h1 className=" italic font-bold text-7xl font-editorialNew text-white">
             Human
           </h1>
-          <h1 className="text-6xl text-white">Ethnicities</h1>
+          <h1 className="text-7xl text-white">Ethnicities</h1>
         </div>
         <div className="col-start-2 row-start-9 col-span-2 z-10 ">
           <p className="w-fit p-4 bg-black rounded-sm text-white">
@@ -59,10 +59,10 @@ export default function Home() {
       </div>
       <div className="md:hidden flex flex-col items-center justify-evenly h-screen">
         <div>
-          <h1 className=" italic font-bold text-6xl font-editorialNew text-white">
+          <h1 className=" italic font-bold text-7xl font-editorialNew text-white">
             Human
           </h1>
-          <h1 className="text-6xl text-white">Ethnicities</h1>
+          <h1 className="text-7xl text-white">Ethnicities</h1>
         </div>
         <img
           className=" w-full h-full object-cover absolute top-0 left-0 -z-10"

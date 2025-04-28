@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/header/Header";
 import { Inter } from "next/font/google";
 import { SessionWrapper } from "@/components/SessionWrapper";
 
@@ -19,7 +18,6 @@ export default function RootLayout({
     <html lang="en">
       <SessionWrapper>
         <body className={`${inter.className} antialiased`}>
-          <Header />
           {children}
         </body>
       </SessionWrapper>

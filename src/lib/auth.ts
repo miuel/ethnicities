@@ -10,9 +10,8 @@ export const authOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        // Acá hacés la verificación del user/pass
         if (credentials?.email === "test@example.com" && credentials.password === "123456") {
-          return { id: "1", name: "Test User", email: "test@example.com" };
+          return { id: "1", name: "Albert Shues", email: "test@example.com" };
         }
         return null;
       },
