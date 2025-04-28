@@ -1,27 +1,20 @@
 "use client";
 
 import * as React from "react";
+import { useTheme } from "next-themes";
 import {
   AudioWaveform,
-  BookOpen,
-  Bot,
-  Command,
-  Frame,
   GalleryVerticalEnd,
   LogOut,
-  Map,
-  PieChart,
-  Settings2,
-  SquareTerminal,
-  Newspaper,
+  Map,  
+  Newspaper,  
   Link,
-  Moon
+  Moon,
+  Sun
 } from "lucide-react";
 import { signOut, useSession } from "next-auth/react";
-import { NavMain } from "@/components/nav-main";
 import { NavProjects } from "@/components/nav-projects";
 import { NavUser } from "@/components/nav-user";
-import { TeamSwitcher } from "@/components/team-switcher";
 import {
   Sidebar,
   SidebarContent,
@@ -31,47 +24,16 @@ import {
 } from "@/components/ui/sidebar";
 import { Button } from "./ui/button";
 
-// This is config  data.
-const data = {  
-  projects: [
-    {
-      name: "Theme",
-      url: "#",
-      icon: Moon,
-    },
-    {
-      name: "All Ethnicities",
-      url: "/all-ethicity",
-      icon: Newspaper,
-    },
-    {
-      name: "Ethnologue",
-      url: "https://www.ethnologue.com/",
-      icon: Link,
-    },
-    {
-      name: "Joshua Project",
-      url: "https://joshuaproject.net/people_groups/statistics",
-      icon: Map,
-    },
-    {
-      name: "CIA World Factbook",
-      url: "https://www.cia.gov/the-world-factbook/",
-      icon: GalleryVerticalEnd,
-    },
-    {
-      name: "United Nations Demographic Yearbook",
-      url: "https://unstats.un.org/unsd/publications/DYB/", 
-      icon: AudioWaveform,
-    },
-  ],
-};
-
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  
+  const { setTheme, theme } = useTheme();
+  console.log("theme", theme);
+  const isDark = theme === "dark";
+  if (theme === "dark") {}
+  
   const { data: session } = useSession();
   const username = session?.user?.name || "User";
   const email = session?.user?.email;
-
   const userLogged = {
     user: {
       name: username,
@@ -80,6 +42,38 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     },
   };
 
+  // This is config  data.
+  const data = {  
+    projects: [     
+      {
+        name: "All Ethnicities",
+        url: "/all-ethicity",
+        icon: Newspaper,
+      },
+      {
+        name: "Ethnologue",
+        url: "https://www.ethnologue.com/",
+        icon: Link,
+      },
+      {
+        name: "Joshua Project",
+        url: "https://joshuaproject.net/people_groups/statistics",
+        icon: Map,
+      },
+      {
+        name: "CIA World Factbook",
+        url: "https://www.cia.gov/the-world-factbook/",
+        icon: GalleryVerticalEnd,
+      },
+      {
+        name: "United Nations Demographic Yearbook",
+        url: "https://unstats.un.org/unsd/publications/DYB/", 
+        icon: AudioWaveform,
+      },
+    ],
+  };
+
+
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
@@ -87,6 +81,14 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavProjects projects={data.projects} />
+        <Button
+          type="button"
+          className="w-fit m-2"
+          onClick={() => setTheme(isDark ? "light" : "dark")}
+        >
+          {isDark ? <Sun /> : <Moon />}
+          {isDark ? "Light" : "Dark"} mode
+        </Button>
       </SidebarContent>
       <SidebarFooter>
         <Button

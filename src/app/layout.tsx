@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { SessionWrapper } from "@/components/SessionWrapper";
+import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,11 +17,13 @@ export default function RootLayout({
 }>): JSX.Element {
   return (
     <html lang="en">
-      <SessionWrapper>
-        <body className={`${inter.className} antialiased`}>
-          {children}
-        </body>
-      </SessionWrapper>
+      <body className={`${inter.className} antialiased`}>
+        <SessionWrapper>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            {children}
+          </ThemeProvider>
+        </SessionWrapper>
+      </body>
     </html>
   );
 }
