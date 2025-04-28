@@ -13,6 +13,9 @@ import {
   PieChart,
   Settings2,
   SquareTerminal,
+  Newspaper,
+  Link,
+  Moon
 } from "lucide-react";
 import { signOut, useSession } from "next-auth/react";
 import { NavMain } from "@/components/nav-main";
@@ -28,111 +31,38 @@ import {
 } from "@/components/ui/sidebar";
 import { Button } from "./ui/button";
 
-// This is sample data.
-const data = {
-  
-  navMain: [
-    {
-      title: "Top 20 largest Ethnologue",
-      url: "#",
-      icon: SquareTerminal,
-      isActive: true,
-      items: [
-        {
-          title: "History",
-          url: "/all-ethicity",
-        },
-        {
-          title: "Starred",
-          url: "#",
-        },
-        {
-          title: "Settings",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Models",
-      url: "#",
-      icon: Bot,
-      items: [
-        {
-          title: "Genesis",
-          url: "#",
-        },
-        {
-          title: "Explorer",
-          url: "#",
-        },
-        {
-          title: "Quantum",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Documentation",
-      url: "#",
-      icon: BookOpen,
-      items: [
-        {
-          title: "Introduction",
-          url: "#",
-        },
-        {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: Settings2,
-      items: [
-        {
-          title: "General",
-          url: "#",
-        },
-        {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
-          url: "#",
-        },
-      ],
-    },
-  ],
+// This is config  data.
+const data = {  
   projects: [
     {
-      name: "Design Engineering",
+      name: "Theme",
       url: "#",
-      icon: Frame,
+      icon: Moon,
     },
     {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: PieChart,
+      name: "All Ethnicities",
+      url: "/all-ethicity",
+      icon: Newspaper,
     },
     {
-      name: "Travel",
-      url: "#",
+      name: "Ethnologue",
+      url: "https://www.ethnologue.com/",
+      icon: Link,
+    },
+    {
+      name: "Joshua Project",
+      url: "https://joshuaproject.net/people_groups/statistics",
       icon: Map,
+    },
+    {
+      name: "CIA World Factbook",
+      url: "https://www.cia.gov/the-world-factbook/",
+      icon: GalleryVerticalEnd,
+    },
+    {
+      name: "United Nations Demographic Yearbook",
+      url: "https://unstats.un.org/unsd/publications/DYB/", 
+      icon: AudioWaveform,
     },
   ],
 };
@@ -156,7 +86,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <NavUser user={userLogged.user} />
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={data.navMain} />
         <NavProjects projects={data.projects} />
       </SidebarContent>
       <SidebarFooter>

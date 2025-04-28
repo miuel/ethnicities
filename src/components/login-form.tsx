@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { signIn } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Link } from "lucide-react";
 
 export function LoginForm({
   className,
@@ -23,7 +24,9 @@ export function LoginForm({
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const router = useRouter();
-
+  const { data: session } = useSession();
+  
+  
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError("");
@@ -31,55 +34,76 @@ export function LoginForm({
     const res = await signIn("credentials", {
       email,
       password,
-      redirect: false, 
+      redirect: false,
     });
 
     if (res?.error) {
       setError("Invalid email or password");
     } else {
-      router.push("/dashboard"); 
+      router.push("/dashboard");
     }
   };
+
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card className="bg-background">
-        <CardHeader>
-          <CardTitle className="text-2xl">Login</CardTitle>
-          <CardDescription>
-            Enter your email below to login to your account
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <form onSubmit={handleSubmit} className="flex flex-col gap-6">
-            <div className="grid gap-2">
-              <Label htmlFor="email">Email</Label>
-              <Input
-                id="email"
-                type="email"
-                placeholder="test@example.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-            </div>
-            <div className="grid gap-2">
-              <Label htmlFor="password">Password</Label>
-              <Input
-                id="password"
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-              />
-            </div>
+        {session ? (
+          <CardHeader>
+            <CardTitle className="text-2xl">
+              You are already logged in!
+            </CardTitle>
+            <CardDescription>
+              Welcome again, {session.user?.name}!
+            </CardDescription>
 
-            {error && <p className="text-red-500 text-sm">{error}</p>}
+            <a
+              href="/dashboard"
+              className="w-fit p-4 rounded-sm bg-asafeBlack text-white"
+            >
+              Go to the Dashboard
+            </a>
+          </CardHeader>
+        ) : (
+          <>
+            <CardHeader>
+              <CardTitle className="text-2xl">Login</CardTitle>
+              <CardDescription>
+                Enter your email below to login to your account
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+                <div className="grid gap-2">
+                  <Label htmlFor="email">Email</Label>
+                  <Input
+                    id="email"
+                    type="email"
+                    placeholder="test@example.com"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className="grid gap-2">
+                  <Label htmlFor="password">Password</Label>
+                  <Input
+                    id="password"
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                  />
+                </div>
 
-            <Button type="submit" className="w-full">
-              Login
-            </Button>
-          </form>          
-        </CardContent>
+                {error && <p className="text-red-500 text-sm">{error}</p>}
+
+                <Button type="submit" className="w-full">
+                  Login
+                </Button>
+              </form>
+            </CardContent>
+          </>
+        )}
       </Card>
     </div>
   );

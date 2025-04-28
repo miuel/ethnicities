@@ -12,21 +12,17 @@ import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import { SectionCards } from "@/components/ui/section-cards";
 
-export default function Page() {
-  const { data: session } = useSession();
-  const username = session?.user?.name || "User";
+export default function Page() {  
 
-  useSessionWrapper();
-  //const chartData : ChartData[]
+  useSessionWrapper();  
   const [chartData, setChartData] = useState<ChartData[]>([]);
-  const [ethnicity, setEthnicity] = useState<any[]>([]);
+  
 
   useEffect(() => {
     fetch("/api/data")
       .then((res) => res.json())
       .then((data) => {
         setChartData(data);
-        setEthnicity(data);
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
@@ -44,7 +40,7 @@ export default function Page() {
               <h1 className="md:ml-11 text-5xl md:text-7xl">Ethnicities</h1>
             </div>
             <img
-              src="/images/ethnicity/igbo.jpg"
+              src="/images/ethnicity/thai.jpg"
               alt="mask"
               height={335}
               width={105}

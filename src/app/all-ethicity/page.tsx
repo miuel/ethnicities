@@ -9,15 +9,14 @@ import { cn } from "@/lib/utils";
 const AllEthnicity: React.FC = () => {
   useSessionWrapper();
 
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [imageArr, setImageArr] = useState<
     { image_url: string; ethnicity: string }[]
   >([]);
   const [ethnicity, setEthnicity] = useState([]);
-  
 
   useEffect(() => {
-    setLoading(true);
+    //setLoading(true);
 
     Promise.all([
       fetch("/api/full-ethnicity").then((res) => res.json()),
@@ -30,9 +29,9 @@ const AllEthnicity: React.FC = () => {
       .catch((error) => {
         console.error("Error fetching data:", error);
       })
-      .finally(() => setLoading(false));
-
-      
+      .finally(() => {
+        setLoading(false);
+      });
   }, []);
 
   return (
@@ -42,7 +41,27 @@ const AllEthnicity: React.FC = () => {
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
         </div>
       ) : (
-        <div className="mx-auto max-w-[1512px] flex justify-center items-center h-screen flex-col mb-10">
+        <div className="mx-auto max-w-[1512px] flex justify-center items-center h-screen flex-col mb-10 relative">
+          <a
+            href="/dashboard"
+            className="hidden md:flex absolute text-sm top-52 left-0 w-auto p-4 rounded-sm bg-asafeBlack text-white  h-12"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4 mr-2 -rotate-90"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 12h18m-9 9l9-9-9-9"
+              />
+            </svg>
+            Back Dashboard
+          </a>
           <div className="flex gap-2 overflow-hidden">
             {imageArr.map((item, index) => (
               <img
@@ -51,8 +70,9 @@ const AllEthnicity: React.FC = () => {
                 alt={item.ethnicity}
                 height={335}
                 width={105}
-                onLoad={() => console.log(`Image ${index + 1} loaded successfully`)}
-                
+                onLoad={() =>
+                  console.log(`Image ${index + 1} loaded successfully`)
+                }
                 className={cn(
                   "clip-me object-cover",
                   `${index % 2 === 1 && "scale-x-[-1]"}`
@@ -65,6 +85,7 @@ const AllEthnicity: React.FC = () => {
             All Human
           </h1>
           <h1 className="ml-14 text-7xl">Ethnicities</h1>
+
           <p className="py-6 max-w-xl">
             Where every culture, color, and story matters. Dive into a curated
             space that embraces global diversity, creativity, and unity without
