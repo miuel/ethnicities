@@ -54,8 +54,8 @@ const AllEthnicity: React.FC = () => {
   }, []);
 
   return (
-    <div className="ml-5 md:ml-0 md:mx-auto max-w-[1512px] flex justify-center h-auto flex-col mb-10 relative">
-      <div className="md:flex gap-2 overflow-hidden hidden">
+    <div className="ml-5  md:mx-auto max-w-[1512px] flex justify-center h-auto flex-col mb-10 relative">
+      <div className="md:flex gap-2 overflow-hidden hidden p-2">
         {imageArr.map((item, index) => (
           <Reveal key={index} delay={index * 0.2}>
             <img
@@ -77,16 +77,16 @@ const AllEthnicity: React.FC = () => {
         ))}
       </div>
 
-      <Reveal>
-        <h1 className="italic font-bold text-5xl xl:text-[270px] font-editorialNew mt-5 leading-none">
+      <Reveal delay={0.2}>
+        <h1 className=" text-center italic font-bold text-5xl xl:text-[270px] font-editorialNew mt-5 leading-none">
           All Human
         </h1>
       </Reveal>
       <div className="relative">
-        <Reveal>
-          <h1 className="md:ml-14 text-5xl  md:text-7xl">Ethnicities</h1>
+        <Reveal delay={0.5}>
+          <h1 className="text-5xl  md:text-7xl">Ethnicities</h1>
         </Reveal>
-        <Reveal>
+        <Reveal delay={0.8}>
           <p className="py-6 max-w-xl">
             Where every culture, color, and story matters. Dive into a curated
             space that embraces global diversity, creativity, and unity without
@@ -95,7 +95,7 @@ const AllEthnicity: React.FC = () => {
             organized in an intuitive and powerful way.
           </p>
         </Reveal>
-        <Reveal>
+        <Reveal delay={0.2}>
           <a
             href="/dashboard"
             className="hidden md:flex absolute text-sm bottom-5 right-0 w-auto p-4 rounded-sm bg-asafeBlack text-white  h-12"
