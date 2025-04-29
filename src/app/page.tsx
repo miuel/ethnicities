@@ -10,6 +10,7 @@ export default function Home() {
             className="clip-me w-full h-full object-cover"
             src="/images/mask-izq.png"
             alt="Descriptioin of image"
+            loading="lazy"
           />
         </div>
         <div className="col-start-5 col-span-4 row-start-5 z-10 ">
@@ -22,6 +23,7 @@ export default function Home() {
             className="clip-me scale-x-[-1] w-full h-full object-cover"
             src="/images/dibakar.jpg"
             alt="Description of image"
+            loading="lazy"
           />
         </div>
 
@@ -45,6 +47,7 @@ export default function Home() {
             className=""
             src="/images/logo_asafe.png"
             alt="Description of image"
+            loading="lazy"
           />
         </div>
         <div className="col-start-12 col-span-2 row-start-12 z-10">
@@ -71,6 +74,7 @@ export default function Home() {
           className=" w-full h-full object-cover absolute top-0 left-0 -z-10"
           src="/images/fadhil.jpg"
           alt="Descriptioin of image"
+          loading="lazy"
         />
         <LoginForm />
         <div>
@@ -79,7 +83,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col text-asafeBlack items-center">
           <div className="absolute left-5 bottom-4 flex justify-between w-full">
-            <img src="/images/logo_asafe.png" alt="Description of image" />
+            <img src="/images/logo_asafe.png" alt="Description of image" loading="lazy" />
             <a
               className="text-white font-editorialNew italic"
               href="https://mr-web-iota.vercel.app/"

@@ -27,7 +27,6 @@ import { Button } from "./ui/button";
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   
   const { setTheme, theme } = useTheme();
-  console.log("theme", theme);
   const isDark = theme === "dark";
   if (theme === "dark") {}
   

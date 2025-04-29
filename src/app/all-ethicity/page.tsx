@@ -14,7 +14,7 @@ const AllEthnicity: React.FC = () => {
   const [imageArr, setImageArr] = useState<
     { image_url: string; ethnicity: string }[]
   >([]);
-  const [ethnicity, setEthnicity] = useState([]);
+  const [ethnicity, setEthnicity] = useState<any[]>([]);
 
   useEffect(() => {
     //setLoading(true);
@@ -24,8 +24,8 @@ const AllEthnicity: React.FC = () => {
       fetch("/api/data").then((res) => res.json()),
     ])
       .then(([ethnicityData, imageData]) => {
-        setEthnicity(ethnicityData);
-        setImageArr(imageData);
+        setEthnicity([...ethnicityData, ...ethnicityData]); // Duplicate the array in order to get more registers
+        setImageArr(imageData); 
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
@@ -79,6 +79,7 @@ const AllEthnicity: React.FC = () => {
                     "clip-me object-cover",
                     `${index % 2 === 1 && "scale-x-[-1]"}`
                   )}
+                  loading="lazy"
                 />
               </Reveal>
             ))}

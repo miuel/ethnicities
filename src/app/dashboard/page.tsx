@@ -49,6 +49,8 @@ export default function Page() {
                 height={335}
                 width={105}
                 className="clip-me"
+                loading="lazy"
+                decoding="async"
               />
             </Reveal>
             <Reveal delay={0.8}>
@@ -69,6 +71,7 @@ export default function Page() {
                 height={335}
                 width={105}
                 className="scale-x-[-1] "
+                loading="lazy"
               />
             </Reveal>
           </div>
