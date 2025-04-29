@@ -12,6 +12,9 @@ import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import { SectionCards } from "@/components/ui/section-cards";
 import Reveal from "@/components/motion/Reveal";
+import { DashBoardPieChart } from "@/components/DashBoardPieChart";
+import { DashBoardRadarChart } from "@/components/DashBoardRadarChart";
+import { DashBoardLinealChart } from "@/components/DashBoardLinealChart";
 
 export default function Page() {
   useSessionWrapper();
@@ -79,6 +82,11 @@ export default function Page() {
         <SectionCards data={chartData} />
         <div className="px-6">
           <DashBoardBarChart chartData={chartData} />
+        </div>
+        <div className="px-6 flex flex-col md:flex-row gap-6 w-full justify-between">
+          <DashBoardRadarChart />
+          <DashBoardPieChart />
+          <DashBoardLinealChart />
         </div>
       </SidebarInset>
     </SidebarProvider>
