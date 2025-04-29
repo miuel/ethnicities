@@ -54,7 +54,7 @@ const AllEthnicity: React.FC = () => {
   }, []);
 
   return (
-    <div className="ml-5  md:mx-auto max-w-[1512px] flex justify-center h-auto flex-col mb-10 relative">
+    <div className="mx-5 md:mx-auto max-w-[1512px] flex justify-center h-auto flex-col mb-10 relative">
       <div className="md:flex gap-2 overflow-hidden hidden p-2">
         {imageArr.map((item, index) => (
           <Reveal key={index} delay={index * 0.2}>
@@ -84,10 +84,10 @@ const AllEthnicity: React.FC = () => {
       </Reveal>
       <div className="relative">
         <Reveal delay={0.5}>
-          <h1 className="text-5xl  md:text-7xl">Ethnicities</h1>
+          <h1 className="text-5xl md:text-7xl">Ethnicities</h1>
         </Reveal>
         <Reveal delay={0.8}>
-          <p className="py-6 max-w-xl">
+          <p className="py-6 max-w-[500px] text-sm">
             Where every culture, color, and story matters. Dive into a curated
             space that embraces global diversity, creativity, and unity without
             borders. Explore a dynamic database showcasing detailed records,
