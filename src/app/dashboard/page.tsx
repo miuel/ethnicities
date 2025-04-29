@@ -33,7 +33,7 @@ export default function Page() {
     <SidebarProvider>
       <AppSidebar />
       <SidebarInset>
-        <header className=" md:mt-24 flex h-auto shrink-0 items-end gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12">
+        <header className="md:mt-24 flex h-auto shrink-0 items-end gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12">
           <div className="flex flex-col md:flex-row gap-2 px-4 my-5 justify-between items-center w-full">
             <div>
               <Reveal delay={0.2}>
@@ -76,6 +76,29 @@ export default function Page() {
                 className="scale-x-[-1] "
                 loading="lazy"
               />
+            </Reveal>
+
+            <Reveal>
+              <a
+                href="/all-ethicity"
+                className="flex items-center md:hidden mt-5 text-sm w-auto p-4 rounded-sm bg-asafeBlack text-white dark:bg-white dark:text-asafeBlack h-12"
+              >
+                Go to Ethicity list
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 ml-2 "
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 12h18m-9 9l9-9-9-9"
+                  />
+                </svg>
+              </a>
             </Reveal>
           </div>
         </header>

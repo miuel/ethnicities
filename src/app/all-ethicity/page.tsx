@@ -98,7 +98,7 @@ const AllEthnicity: React.FC = () => {
         <Reveal delay={0.2}>
           <a
             href="/dashboard"
-            className="hidden md:flex absolute text-sm bottom-5 right-0 w-auto p-4 rounded-sm bg-asafeBlack text-white  h-12"
+            className="hidden md:flex absolute text-sm bottom-5 right-0 w-auto p-4 rounded-sm bg-asafeBlack text-white dark:bg-white dark:text-asafeBlack  h-12"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
