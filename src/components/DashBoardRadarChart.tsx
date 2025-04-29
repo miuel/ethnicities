@@ -63,7 +63,7 @@ export function DashBoardRadarChart() {
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col gap-2 text-sm">
-        <div className="flex items-center gap-2 font-medium leading-none w-96">
+        <div className="flex items-center gap-2 font-medium leading-none md:w-96">
           Arabs are a diverse group unified primarily by language and cultural
           traditions across the Middle East and North Africa.
         </div>
