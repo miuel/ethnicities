@@ -65,10 +65,10 @@ export default function Home() {
       </div>
       <div className="md:hidden flex flex-col items-center justify-evenly h-screen">
         <div>
-          <h1 className=" italic font-bold text-7xl font-editorialNew text-white">
+          <h1 className="italic font-bold text-5xl font-editorialNew text-white">
             Human
           </h1>
-          <h1 className="text-7xl text-white">Ethnicities</h1>
+          <h1 className="text-5xl text-white">Ethnicities</h1>
         </div>
         <img
           className=" w-full h-full object-cover absolute top-0 left-0 -z-10"
@@ -77,13 +77,13 @@ export default function Home() {
           loading="lazy"
         />
         <LoginForm />
-        <div>
+        <div className="mx-5 md:mx-0 text-asafeBlack md:text-white">
           <p>Technical Test: </p>
           <p>React Developer Next.js + TypeScript + Tailwind Css</p>
         </div>
         <div className="flex flex-col text-asafeBlack items-center">
           <div className="absolute left-5 bottom-4 flex justify-between w-full">
-            <img src="/images/logo_asafe.png" alt="Description of image" loading="lazy" />
+           
             <a
               className="text-white font-editorialNew italic"
               href="https://mr-web-iota.vercel.app/"
