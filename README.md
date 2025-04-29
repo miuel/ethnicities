@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Human Ethnicities
 
-## Getting Started
+A visual and technical exploration of the diverse ethnicities of the world.  
+This project blends clean design, smooth animations, and a modern web stack to present a striking and immersive user experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Demo
+
+👉 [Live on Vercel](https://your-deploy-url.vercel.app/) ← *(replace with your actual link)*
+
+---
+
+## 📚 Project Overview
+
+**Human Ethnicities** is a modern frontend project built with **Next.js 14**, showcasing a full-screen grid layout of human portraits, accompanied by a login interface and subtle animations.  
+The goal is to deliver a performant and aesthetically refined interface that emphasizes visual storytelling.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org/) with App Router
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Fonts**: Custom Google Fonts (e.g., Editorial New)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Authentication**: [NextAuth.js](https://next-auth.js.org/) (with hardcoded user for demo purposes)
+- **Icons**: [Lucide Icons](https://lucide.dev/)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **Type Safety**: TypeScript
+
+---
+
+## 🧩 Architecture
+
+```
+src/
+├── app/
+│   ├── api/             # API routes (e.g., /api/data)
+│   ├── login/           # Login page and logic
+│   ├── page.tsx         # Main entry point
+│   └── layout.tsx       # Root layout and providers (Theme, Session)
+├── components/          # UI components (form, motion, etc.)
+│   └── motion/          # Motion-related components (e.g., Reveal)
+├── lib/                 # Auth config (e.g., authOptions.ts)
+├── styles/              # Global styles if needed
+└── public/              # Static assets (images, logo, etc.)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Login is implemented using **NextAuth.js**, with a single hardcoded user in the configuration (`authOptions`).  
+Session state is handled via the `SessionProvider`, and authentication checks can be easily extended as needed.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app uses a local API route at `/api/data` to serve static JSON data.  
+This structure allows easy migration to a real backend in the future.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📝 Setup & Development
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+git clone https://github.com/yourusername/human-ethnicities.git
+cd human-ethnicities
+```
+
+2. **Install dependencies**
+
+```bash
+pnpm install
+# or
+npm install
+```
+
+3. **Run the dev server**
+
+```bash
+pnpm dev
+# or
+npm run dev
+```
+
+4. **Environment variables**
+
+You'll need a `.env.local` file with at least:
+
+```env
+NEXTAUTH_SECRET=your-secret-key
+NEXTAUTH_URL=http://localhost:3000
+```
+
+---
+
+## 📄 License
+
+This project is for demonstration and educational purposes.  
+Feel free to fork and adapt it.
+
+---
+
+## ✍️ Created by
+
+**Miguel Rivas** — [Portfolio](https://mr-web-iota.vercel.app/)
