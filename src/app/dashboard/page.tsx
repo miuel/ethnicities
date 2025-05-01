@@ -47,7 +47,7 @@ export default function Page() {
             </div>
             <Reveal delay={0.6}>
               <img
-                src="/images/ethnicity/thai.jpg"
+                src="/images/ethnicity/thai.webp"
                 alt="mask"
                 height={335}
                 width={105}
@@ -69,7 +69,7 @@ export default function Page() {
             </Reveal>
             <Reveal delay={1}>
               <img
-                src="/images/mask-izq.png"
+                src="/images/mask-izq.webp"
                 alt="mask"
                 height={335}
                 width={105}
