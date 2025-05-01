@@ -10,7 +10,7 @@ describe("Separator", () => {
     expect(separator).toHaveClass("w-full h-[1px]")
   })
 
-  it("renders a vertical separator when orientation is vertical", () => {
+  it("renders a vertical separator if orientation is vertical", () => {
     const { container } = render(<Separator orientation="vertical" />)
     const separator = container.firstChild as HTMLElement
 

@@ -14,8 +14,7 @@ const Reveal: React.FC<RevealProps> = ({ children, delay, cssCustom = ""}) => {
   const controls = useAnimation();
   const inView = useInView(ref, { once: true });
 
-  useEffect(() => {   
-    
+  useEffect(() => {       
     if (inView) {
       controls.start("visible");
     }
