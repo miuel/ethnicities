@@ -146,6 +146,8 @@ Feel free to fork and adapt it.
   ● Ensure that your application is deployed, and share the deployment link (e.g.,
   Netlify, Vercel).
 
+---
+
 ## ✍️ Created by
 
 **Miguel Rivas** — [Portfolio](https://mr-web-iota.vercel.app/)
